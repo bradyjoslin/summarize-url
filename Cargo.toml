@@ -1,0 +1,10 @@
+[package]
+name = "summarize-url"
+version = "0.0.1"
+authors = ["Joslin, Brady W (Brady) <brady@bradyjoslin.com>"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.3"
+assert_cmd = "1.0.1"
+algorithmia = "2.1.3"
