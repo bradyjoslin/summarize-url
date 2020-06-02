@@ -15,8 +15,8 @@ fn main() -> AppResult<()> {
     let summary = summarize_url(api_key, input, length)?;
 
     match app {
-        app::App { verbose: true, .. } => println!("Summary of {}\n{}", input, summary),
-        _ => println!("\n{}", summary),
+        app::App { verbose: true, .. } => println!("Summary of {}\n\n{}", input, summary),
+        _ => println!("{}", summary),
     }
     Ok(())
 }
