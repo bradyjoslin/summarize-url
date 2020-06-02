@@ -10,11 +10,11 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  env:
-    ALGO_KEY: ${{ secrets.ALGO_KEY }}
   build_on_ubuntu:
 
     runs-on: ubuntu-latest
+    env:
+      ALGO_KEY: ${{ secrets.ALGO_KEY }}
 
     steps:
     - uses: actions/checkout@v2
@@ -26,6 +26,8 @@ jobs:
   build_on_mac:
     
     runs-on: macos-latest
+    env:
+      ALGO_KEY: ${{ secrets.ALGO_KEY }}
 
     steps:
     - uses: actions/checkout@v2
@@ -37,7 +39,9 @@ jobs:
   build_on_windows:
     
     runs-on: windows-latest
-
+    env:
+      ALGO_KEY: ${{ secrets.ALGO_KEY }}
+    
     steps:
     - uses: actions/checkout@v2
     - name: Build
