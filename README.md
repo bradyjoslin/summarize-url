@@ -9,12 +9,15 @@ summarize-url 0.0.1
 Summarize the content of a web page
 
 USAGE:
-    summarize-url [FLAGS] <url> <api-key>
+    summarize-url [FLAGS] [OPTIONS] <url> <api-key>
 
 FLAGS:
     -h, --help       Prints help information
     -V, --version    Prints version information
     -v, --verbose    Verbose output
+
+OPTIONS:
+    -l, --length <length>    Length of output by number of sentences [default: 3]
 
 ARGS:
     <url>        URL to summarize
