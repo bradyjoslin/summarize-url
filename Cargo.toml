@@ -7,4 +7,4 @@ edition = "2018"
 [dependencies]
 structopt = "0.3"
 assert_cmd = "1.0.1"
-algorithmia = "2.1.3"
+algorithmia = "3.0.0-beta.3"

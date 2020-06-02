@@ -10,6 +10,8 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
+  env:
+    ALGO_KEY: ${{ secrets.ALGO_KEY }}
   build_on_ubuntu:
 
     runs-on: ubuntu-latest
