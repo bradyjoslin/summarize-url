@@ -1,5 +1,7 @@
 # URL Summarizer
 
+![CI](https://github.com/bradyjoslin/summarize-url/workflows/CI/badge.svg)
+
 ## Usage
 
 Summarizes the content of a URL using [nlp/SummarizeURL/0.1.4](https://algorithmia.com/algorithms/nlp/SummarizeURL) from [Algorithmia](https://algorithmia.com/).
